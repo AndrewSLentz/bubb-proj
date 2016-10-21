@@ -1,0 +1,296 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+@font-face {
+  font-family: Gt Walsheim Bold;
+  src: url(http://www.bubb.com.br/assets/webfonts/gt-walsheim/gt-walsheim-bold-webfont.eot);
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    padding: 0 47px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.relative {
+  position: relative;
+}
+
+header {
+    padding: 42px 0;
+    border-bottom: 1px solid #EEE;
+  }
+
+.clearfix::after {
+  clear: both;
+}
+
+.clearfix::after, .clearfix::before {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.text-right {
+  text-align: right;
+}
+
+header .holder-logo {
+  position: relative;
+  margin: 17px 0 0 0;
+}
+
+header .holder-logo .logo {
+  display: inline-block;
+  width: 186px;
+  height: 42px;
+  background: url(http://www.bubb.com.br/assets/img/sprite.png) no-repeat 0 -177px;
+  -webkit-background-size: 186px 219px;
+  background-size: 186px 219px;
+}
+
+ul {
+  list-style: none;
+}
+
+header .menu {
+  margin: 0 0 0 10px;
+  font-size: 16px;
+}
+
+header .menu .item-menu {
+  float: left;
+}
+
+header .menu .item-menu .link-menu {
+  display: inline-block;
+  padding: 26px 9px 20px 9px;
+  color: #4d4d4d;
+  border-bottom: 4px solid #EEE;
+}
+
+@media (max-width: 900px) {
+  header .menu .item-menu .link-menu{
+    display: none;
+  }
+  header .contact {
+    display: none;
+  }
+  header .socials {
+    display: none;
+  }
+}
+
+header .menu .item-menu .link-menu:hover {
+  color: #3dAfCa;
+  border-color: #3498b1;
+}
+
+header .contact {
+  margin: 28px 0 0 28px;
+}
+
+header .contact .link-phone {
+  color: #4d4d4d;
+}
+
+header .contact .link-phone:hover {
+  color: #3dAfCa;
+}
+
+.f15 {
+  font-size: 16px;
+}
+
+.f-h4 {
+  font-size: 18px;
+}
+
+.bold {
+  font-family: "Gt Walsheim Bold", sans-serif;;
+}
+
+.light {
+  font-family: "GT Walsheim Light", sans-serif;
+}
+
+.block {
+  display: block;
+}
+
+header .contact .link-email {
+  margin: 4px 0 0 0;
+  color: gray;
+}
+
+header .contact .link-email:hover {
+  color: #3dAfCa;
+}
+
+header .socials .item-social {
+  float: left;
+}
+
+header .socials .item-social .link-social {
+  display: inline-block;
+  padding: 32px 13px 20px 13px;
+  font-size: 18px;
+  color: #ccc;
+}
+
+header .socials .item-social .link-social:hover {
+  color: #3dAfCa;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+}
+
+.fa-instagram::before {
+  content: "\f16d"
+}
+
+.fa-facebook::before {
+  content: "\f09a"
+}
+
+.container {
+  width: 100%;
+}
+
+#section-contact .holder-section {
+  padding: 40px 0;
+  background: #F5F5F5;
+}
+
+.text-center {
+  text-align: center;
+}
+
+#section-contact .call .t1 {
+  letter-spacing: -3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 55px;
+  margin: 0;
+}
+
+.mt15 {
+  margin-top: 15px;
+}
+
+.black-40 {
+  color: #999;
+}
+
+#form-contact {
+  display: inline-block;
+  max-width: 830px;
+}
+
+.form-horizontal .form-group {
+  width: 50%;
+  padding: 0 25px;
+  position: relative;
+  margin: 6px 0;
+  float: left;
+}
+
+.form-horizontal .input, .form-horizontal .textarea {
+  width: 100%;
+  color: #666;
+}
+
+button, input, select, textarea {
+  border: 0;
+  outline: 0;
+  font-size: 18px;
+  font-family: 'Gt Walsheim Light',sans-serif;
+  border-bottom: 3px solid #CCC;
+  padding: 15px;
+  background: 0 0;
+}
+
+button:focus, input:focus, select:focus, textarea:focus {
+  border-bottom: 3px solid #666666;
+}
+
+.form-horizontal .form-group {
+  width: 50%;
+  padding: 0 25px;
+  position: relative;
+  margin: 6px 0;
+  float: left;
+  box-sizing: border-box;
+}
+
+div.select-skin-text {
+  text-align: left;
+  padding-bottom: 15px;
+  margin-top: 0;
+}
+
+.select-skin-mask {
+  width: 100%
+}
+
+.select-skin-mask::before {
+  display: inline-block;
+  position: absolute;
+  right: 11px;
+  top: 15 px;
+  font-size: 23px;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  content: "\f107";
+}
+
+.holder-select {
+  border-bottom: 3px solid #CCC;
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.form-horizontal .form-group.w-100 {
+  width: 100%;
+}
+
+form {
+  margin-top: 50px;
+}
+
+.btn.btn-blue {
+  color:#FFF;
+  background:#3DAFCA;
+  border:0
+}
+
+.btn.btn-blue:hover {
+  background:#3498B1
+}
