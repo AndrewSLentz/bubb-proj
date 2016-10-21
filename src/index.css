@@ -267,7 +267,7 @@ div.select-skin-text-clip {
 .select-skin-mask {
   width: 100%;
   z-index: -5;
-  margin-top: -65px;
+  margin-top: -45px;
 }
 
 .select-skin-mask::before {
