@@ -251,7 +251,9 @@ button:focus, input:focus, select:focus, textarea:focus {
 div.select-skin-text {
   text-align: left;
   padding-bottom: 15px;
-  margin-top: 0;
+  padding-left: 15px;
+  margin-top: -13px;
+  color: #666666;
 }
 
 .select-skin-mask {
