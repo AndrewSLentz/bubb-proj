@@ -248,16 +248,26 @@ button:focus, input:focus, select:focus, textarea:focus {
   box-sizing: border-box;
 }
 
+div.select-skin {
+  height: 52px;
+}
+
 div.select-skin-text {
   text-align: left;
   padding-bottom: 15px;
   padding-left: 15px;
-  margin-top: -13px;
+  margin-top: -13;
   color: #666666;
 }
 
+div.select-skin-text-clip {
+  margin-top: 30px;
+}
+
 .select-skin-mask {
-  width: 100%
+  width: 100%;
+  z-index: -5;
+  margin-top: -65px;
 }
 
 .select-skin-mask::before {
