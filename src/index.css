@@ -248,6 +248,15 @@ button:focus, input:focus, select:focus, textarea:focus {
   box-sizing: border-box;
 }
 
+@media (max-width: 900px) {
+  .form-horizontal .form-group {
+    width: 100%;
+  }
+  button, input, select, textarea {
+  padding: 0;
+  }
+}
+
 div.select-skin {
   height: 52px;
 }
@@ -305,4 +314,8 @@ form {
 
 .btn.btn-blue:hover {
   background:#3498B1
+}
+
+section > .container {
+  padding-top: 300px;
 }
